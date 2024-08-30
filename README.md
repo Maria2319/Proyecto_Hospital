@@ -24,10 +24,10 @@ Maria Silva Padilla/Jesus Lopez Rubio
     medicine_recipe_id (FK): numero desde la entidad receta 
 
 ## Recipe
-   recipe_id (PK): Identificador receta
-   recipe_name: Nombre de la receta (Texto) 
-   recipe_patient_id (FK): Identificador de receta descrita al paciente (Numero)
-   recipe_doctor_id (FK): Identificador de receta descrita por el doctor (Numero)
+    recipe_id (PK): Identificador receta
+    recipe_name: Nombre de la receta (Texto) 
+    recipe_patient_id (FK): Identificador de receta descrita al paciente (Numero)
+    recipe_doctor_id (FK): Identificador de receta descrita por el doctor (Numero)
    
  ## Shipment
     shipment_id (PK): Identificador unico del envio
