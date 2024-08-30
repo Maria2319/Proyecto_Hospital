@@ -39,11 +39,15 @@ Relaciones entre Entidades
 
 Patient y Recipe:
 Receta tiene a recipe_patient_id que es llave foranea y se refiere a patient_id en Patient, significa que una receta se asocia a un paciente especifico.
+
 Doctor y Recipe:
 Receta tiene a recipe_doctor_id que es llave foranea y se refiere a doctor_id en Doctor, significa que una receta es escrita por un doctor especifico.
+
 Medicine y Formula:
 Medicine tiene a medicine_recipe_id que es llave foranea y se refiere a recipe_id en Formula, significa que un medicamento se asocia a una receta especifica.
+
 Patient y Shipment:
 Shipment tiene a shipment_patient_id que es llave foranea y se refiere a patient_id en Patient, significa que un envio esta dirigido a un paciente especifico.
+
 Medicine y Shipment:
 Shipment tiene a shipment_medicine_id que es llave foranea y se refiere a medicine_id en Medicine, significa que el medicamento se enviara.
