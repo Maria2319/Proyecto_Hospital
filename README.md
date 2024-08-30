@@ -26,9 +26,9 @@ Maria Silva Padilla/Jesus Lopez Rubio
 ## formula 
    formula_id (PK): Identificador unico de formula
    formula_name: Nombre de la formula (Texto) 
-   formla_patient_id (FK): Identificador de formula descrita al paciente (Numero)
-   formula_doctor_id (FK): Identificador de formula descrita por el doctor (Numero)
-
+   patient_id (FK): Identificador de formula descrita al paciente (Numero)
+   doctor_id (FK): Identificador de formula descrita por el doctor (Numero)
+   
 ## Shipment
     shipment_id (PK): Identificador unico del envio
     shipment_medicine_id (FK): Numero desde la entidad medicamento
