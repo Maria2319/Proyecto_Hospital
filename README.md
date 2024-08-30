@@ -50,4 +50,4 @@ Patient y Shipment:
 Shipment tiene a shipment_patient_id que es llave foranea y se refiere a patient_id en Patient, significa que un envio esta dirigido a un paciente especifico.
 
 Medicine y Shipment:
-Shipment tiene a shipment_medicine_id que es llave foranea y se refiere a medicine_id en Medicine, significa que el medicamento se enviara.
+Shipment tiene a _medicine_id que es llave foranea y se refiere a medicine_id en Medicine, significa que el medicamento se enviara.
